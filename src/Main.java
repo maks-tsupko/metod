@@ -21,7 +21,7 @@ public class Main {
         }
     }
 
-    public static String deliveryDistance(int DistanceKm) {
+    public static String calculateDeliveryDays(int DistanceKm) {
         if (DistanceKm < 20) {
             return "Потребуется 1 день на доставку";
         }
@@ -53,7 +53,7 @@ public class Main {
 
         System.out.print("задача 3");
         System.out.println();
-        System.out.println(deliveryDistance(200));
+        System.out.println(calculateDeliveryDays(200));
 
 
     }
